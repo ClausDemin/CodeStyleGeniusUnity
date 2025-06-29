@@ -22,7 +22,7 @@ public class WaypointMovement : MonoBehaviour
 
         for (int i = 0; i < _path.childCount; i++)
         {
-            _waypoints[i] = _path.GetChild(i).GetComponent<Transform>();
+            _waypoints[i] = _path.GetChild(i);
         }
     }
 
