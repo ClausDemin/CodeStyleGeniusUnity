@@ -10,8 +10,6 @@ public class ProjectileShooting : MonoBehaviour
     [SerializeField] private Transform _target;
     [SerializeField] float _cooldown;
 
-
-
     private void Start()
     {
         StartCoroutine(Shoot());
